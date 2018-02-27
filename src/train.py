@@ -23,3 +23,19 @@
 #	with the "answer" column, a boolean telling us if the patient had sepsis or not.
 #	The AI is then able to be scored (see score.*) and we're able to get a prediction
 #	of the patient's diagnosis.
+
+import wget
+import json
+import os
+
+depth    = "../"
+datafile = depth + "meta/data-train.csv"
+
+# Check for the file's existence
+if not os.path.isfile(datafile):
+	print("Data file " + datafile + " doesn't exist. Please check that it's there.")
+	
+#
+# Can't move on without some sort of Data Science Experience Spark instance
+# Make a project in DSE.
+#
