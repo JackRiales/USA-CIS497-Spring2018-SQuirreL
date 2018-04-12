@@ -1,0 +1,1 @@
+Either execute the run.bat file or open command prompt and use "java -jar Application.jar" to execute the .jar file.

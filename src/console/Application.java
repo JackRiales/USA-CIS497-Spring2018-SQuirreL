@@ -1,4 +1,5 @@
 /**
+
  * File:
  * 		Author: Shawyn Kane
  *		Course: CSC 497-501 Senior Project
@@ -21,7 +22,6 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Base64;
